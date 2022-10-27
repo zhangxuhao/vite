@@ -1,5 +1,5 @@
 import Home from '../pages/home';
-
+import PageOne from '../pages/pageOne';
 
 
 const routes =[
@@ -12,6 +12,11 @@ const routes =[
         path:"*",
         component:Home,
         title:'首页'
+    },
+    {
+        path:"/pageOne",
+        component:PageOne,
+        title:'pageOne'
     }
     
 ];

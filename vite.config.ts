@@ -20,7 +20,7 @@ export default defineConfig({
     postcss: {
       plugins: [
         postCssPxRem({
-          rootValue: 75,
+          rootValue: 32,
           propList: ['*'],
           selectorBlackList: ['adm-', ':root']
         })
