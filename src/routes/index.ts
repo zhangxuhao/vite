@@ -8,6 +8,11 @@ const routes =[
         component:Home,
         title:"首页"
     },
+    {
+        path:"*",
+        component:Home,
+        title:'首页'
+    }
     
 ];
 
