@@ -1,5 +1,5 @@
 
-import styles from './index.module.scss';
+import styles from './index.module.less';
 import { useNavigate,useRoutes } from 'react-router-dom'
 
 type TPageType = {
