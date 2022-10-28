@@ -14,7 +14,7 @@ const Home: React.FC = (props) => {
     const handleJumpPage = (type: TPageTypeNames) => {
         const pages: TPageType = {
             "one": "/pageOne"
-        }
+        } 
         navigate(pages[type])
     }
 
