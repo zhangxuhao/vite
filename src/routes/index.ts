@@ -4,17 +4,17 @@ import PageOne from '../pages/pageOne';
 
 const routes =[
     {
+        path:"/",
+        component:Home,
+        title:'首页'
+    },
+    {
         path:"/home",
         component:Home,
         title:"首页"
     },
     {
-        path:"*",
-        component:Home,
-        title:'首页'
-    },
-    {
-        path:"/pageOne",
+        path:"/pageOne/:id",
         component:PageOne,
         title:'pageOne'
     }

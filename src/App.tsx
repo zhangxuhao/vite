@@ -5,7 +5,6 @@ import routes from '@/routes/index';
 // import routes from '@/pages/home'
 
 // import routes from '../src/routes/index';
-console.log("routes",routes)
 function App() {
 
   function updateTitle(title: string) {

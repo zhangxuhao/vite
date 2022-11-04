@@ -10,10 +10,9 @@ type TPageTypeNames = keyof TPageType;
 
 const Home: React.FC = (props) => {
     const navigate = useNavigate()
-    console.log("props",props)
     const handleJumpPage = (type: TPageTypeNames) => {
         const pages: TPageType = {
-            "one": "/pageOne"
+            "one": "/pageOne/1"
         } 
         navigate(pages[type])
     }
